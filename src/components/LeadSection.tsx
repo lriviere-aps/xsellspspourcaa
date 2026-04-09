@@ -62,7 +62,7 @@ const LeadSection = () => (
       <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
         <h2 className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
           Sauf que quand la machine se grippe, tout s'effondre.
-        </p>
+        </h2>
         <p className="font-semibold text-foreground">
           C'est ce qu'il s'est passé en mars 2020 au début du Covid.
         </p>
