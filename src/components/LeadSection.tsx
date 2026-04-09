@@ -182,7 +182,7 @@ const LeadSection = () => (
                 <h3 className="font-bold text-secondary-foreground text-lg leading-snug font-sans">
                   {title}
                 </h3>
-                <p className="text-secondary-foreground/70 mt-1 font-sans">{desc}</p>
+                <p className="mt-1 font-sans text-white">{desc}</p>
               </div>
             </div>
           ))}
