@@ -37,12 +37,14 @@ const LeadSection = () => (
           faisions autrefois nous-mêmes.
         </p>
         <p>Quelqu'un d'autre cultive, transforme, conditionne, livre…</p>
-        <p className="font-semibold text-secondary-foreground">Ce progrès vient avec une dépendance.</p>
       </div>
     </div>
 
     {/* Le contraste passé / présent */}
     <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+      <h2 className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
+        Ce progrès vient avec une dépendance.
+      </h2>
       <p>
         Il y a 80 ans, ta grand-mère savait que l'ortie se mange, que le
         plantain guérit les plaies et que les glands du chêne se transforment en
