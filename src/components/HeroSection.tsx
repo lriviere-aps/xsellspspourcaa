@@ -1,7 +1,7 @@
 import heroImg from "@/assets/hero-forest.jpg";
 
 const HeroSection = () => (
-  <header className="relative overflow-hidden bg-forest min-h-[90vh] flex flex-col items-center justify-center text-center px-6 py-20">
+  <header className="relative overflow-hidden bg-forest min-h-[60vh] flex flex-col items-center justify-center text-center px-6 py-14">
     {/* Background image */}
     <div className="absolute inset-0">
       <img src={heroImg} alt="" className="w-full h-full object-cover opacity-25" width={1920} height={1080} />
