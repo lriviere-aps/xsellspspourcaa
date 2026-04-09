@@ -123,7 +123,7 @@ const LeadSection = () => (
     </div>
 
     {/* Part 3 — Le programme */}
-    <div className="bg-secondary text-secondary-foreground">
+    <div id="programme-section" className="bg-secondary text-secondary-foreground">
       <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
         <h2 className="text-2xl md:text-3xl font-bold text-left leading-snug font-sans">
           Réveille le cueilleur, cuisinier et guérisseur qui sommeille en toi
