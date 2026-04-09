@@ -1,4 +1,4 @@
-import liveImg from "@/assets/live-direct.jpg";
+import liveImg from "@/assets/live-sessions-direct.png";
 import { Video, Headphones, FileText } from "lucide-react";
 
 const LiveSessionsSection = () => (
