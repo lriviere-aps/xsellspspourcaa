@@ -96,7 +96,7 @@ const LeadSection = () => (
           Ce savoir que nos arrière-grands-parents possédaient naturellement…
           <span className="font-semibold text-foreground"> il n'a pas disparu.</span>
         </p>
-        <p className="font-semibold text-foreground text-xl">Il a juste attendu.</p>
+        <p className="font-semibold text-xl text-primary">Il a juste attendu.</p>
         <p>Pendant que le monde s'industrialisait, un homme a fait le chemin inverse.</p>
         <p>
           Pendant plus de 40 ans, il a parcouru les forêts, les prairies, les
