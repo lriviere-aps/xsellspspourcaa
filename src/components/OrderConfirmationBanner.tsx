@@ -8,7 +8,7 @@ const OrderConfirmationBanner = () => (
       <img src={logoAps} alt="Logo APS" width={128} height={128} className="w-28 h-28 mx-auto object-fill" />
 
       {/* Titre */}
-      <h2 className="font-sans text-xl md:text-2xl font-bold text-foreground leading-snug">
+      <h2 className="font-sans text-xl font-bold text-foreground leading-snug md:text-4xl">
         Ta commande est enregistrée…<br />
         mais ne part pas tout de suite&nbsp;!
       </h2>
