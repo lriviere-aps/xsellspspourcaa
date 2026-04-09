@@ -127,7 +127,7 @@ const LeadSection = () => (
           Réveille le cueilleur, cuisinier et guérisseur qui sommeille en toi
         </h2>
 
-        <div className="space-y-5 text-base md:text-lg leading-relaxed text-secondary-foreground/80 font-sans">
+        <div className="space-y-5 text-base md:text-lg leading-relaxed text-background font-sans">
           <p>
             Avec François nous t'avons créé <strong className="text-secondary-foreground">LE programme vidéo ultime</strong> pour
             t'aider à atteindre l'autonomie alimentaire grâce à la cueillette des
