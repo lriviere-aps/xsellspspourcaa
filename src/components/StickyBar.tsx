@@ -28,7 +28,7 @@ const StickyBar = () => {
         href="#pricing"
         className="font-sans-ui bg-gold px-5 py-2 rounded hover:bg-gold-light transition-colors text-white font-bold text-base"
       >
-        Rejoindre →
+        Rejoindre→
       </a>
     </div>
   );
