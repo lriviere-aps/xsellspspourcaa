@@ -1,10 +1,12 @@
 import openBoxImg from "@/assets/open-box-glow.png";
+import logoAps from "@/assets/logo-aps.png";
 
 const OrderConfirmationBanner = () => (
   <section className="bg-muted">
     <div className="max-w-5xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-8 md:gap-12">
       {/* Text */}
       <div className="flex-1 space-y-4">
+        <img src={logoAps} alt="Logo APS" width={64} height={64} className="w-16 h-16" />
         <h2 className="font-sans text-2xl md:text-3xl font-bold text-foreground leading-snug">
           Ta commande est enregistrée…<br />
           mais ne part pas tout de suite&nbsp;!
