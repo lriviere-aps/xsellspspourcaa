@@ -23,7 +23,7 @@ const LeadSection = () => (
     </div>
 
     {/* Transition — la perte */}
-    <div className="bg-secondary text-secondary-foreground">
+    <div className="text-secondary-foreground bg-lime-900">
       <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed font-sans">
         <h2 className="text-2xl md:text-3xl font-bold text-left font-sans">
           En deux générations, cette compétence a pratiquement disparu.
@@ -122,7 +122,7 @@ const LeadSection = () => (
     </div>
 
     {/* Part 3 — Le programme */}
-    <div id="programme-section" className="bg-secondary text-secondary-foreground">
+    <div id="programme-section" className="text-secondary-foreground bg-lime-900">
       <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
         <h2 className="text-2xl md:text-3xl font-bold text-left leading-snug font-sans">
           Réveille le cueilleur, cuisinier et guérisseur qui sommeille en toi
@@ -136,7 +136,7 @@ const LeadSection = () => (
           </p>
           <p>
             Ce programme nous l'avons appelé&nbsp;:
-            <span className="font-bold text-primary italic"> Les Secrets des Plantes Sauvages&nbsp;!</span>
+            <span className="font-bold italic text-primary"> Les Secrets des Plantes Sauvages&nbsp;!</span>
           </p>
           <p>
             Grâce à lui, la Nature sera bientôt pour toi un immense

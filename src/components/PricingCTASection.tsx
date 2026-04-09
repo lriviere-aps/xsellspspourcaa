@@ -173,7 +173,7 @@ const PricingCTASection = () => (
     </div>
 
     {/* Final CTA */}
-    <div className="bg-secondary text-secondary-foreground">
+    <div className="text-secondary-foreground bg-lime-900">
       <div className="max-w-2xl mx-auto px-6 py-20 space-y-6 text-center">
         <h2 className="text-3xl md:text-4xl font-bold font-sans leading-tight">
           Rejoins <em className="text-primary">Les Secrets des Plantes Sauvages</em> avec François Couplan…

@@ -17,7 +17,7 @@ const StickyBar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 right-0 z-50 bg-forest border-b border-gold/20 px-6 py-3 flex items-center justify-between transition-transform duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 bg-lime-900 border-b border-gold/20 px-6 py-3 flex items-center justify-between transition-transform duration-300 ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
