@@ -1,5 +1,5 @@
 import liveImg from "@/assets/live-sessions-direct.png";
-import { Video, Headphones, FileText } from "lucide-react";
+import replayFormatsImg from "@/assets/replay-formats.jpg";
 
 const LiveSessionsSection = () => (
   <section className="text-secondary-foreground font-sans bg-lime-900">
