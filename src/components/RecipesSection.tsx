@@ -1,4 +1,4 @@
-import recettesImg from "@/assets/recettes-sauvages.jpg";
+import recettesImg from "@/assets/recettes-sauvages-new.jpg";
 
 const RecipesSection = () => (
   <section className="bg-card font-sans">
