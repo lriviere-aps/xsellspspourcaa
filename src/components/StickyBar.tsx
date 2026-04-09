@@ -4,7 +4,13 @@ const StickyBar = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setVisible(window.scrollY > 400);
+    const onScroll = () => {
+      const target = document.getElementById("programme-section");
+      if (!target) return;
+      const rect = target.getBoundingClientRect();
+      setVisible(rect.bottom < 0);
+    };
+
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
