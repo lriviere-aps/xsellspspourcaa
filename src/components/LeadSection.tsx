@@ -60,9 +60,9 @@ const LeadSection = () => (
     {/* L'événement déclencheur */}
     <div className="bg-card">
       <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
-        <p className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
           Sauf que quand la machine se grippe, tout s'effondre.
-        </p>
+        </h2>
         <p className="font-semibold text-foreground">
           C'est ce qu'il s'est passé en mars 2020 au début du Covid.
         </p>
@@ -76,10 +76,10 @@ const LeadSection = () => (
           Ce que peu de gens savent, c'est que nos chaînes d'approvisionnement
           fonctionnent en <span className="font-semibold text-foreground">flux tendu permanent</span>.
         </p>
-        <p className="text-lg font-bold text-foreground">
+        <h2 className="text-lg font-bold text-foreground">
           Il n'y a pas de stock. Pas de marge.<br />
           Au moindre grain de sable dans la machine, tous les rayons sont vides en 72h.
-        </p>
+        </h2>
       </div>
     </div>
 
@@ -103,9 +103,9 @@ const LeadSection = () => (
           ancêtres connaissaient par cœur.
         </p>
         <p>Il les a identifiées. Goûtées. Documentées. Testées.</p>
-        <p className="text-xl font-bold text-foreground">
+        <h2 className="text-xl font-bold text-foreground">
           Et il a fini par devenir une véritable légende.
-        </p>
+        </h2>
         <p>
           Il a collaboré avec les plus grands chefs étoilés, écrit des dizaines de
           livres sur le sujet et est devenu <strong>LA référence</strong> des plantes sauvages.
@@ -143,9 +143,9 @@ const LeadSection = () => (
           </p>
         </div>
 
-        <p className="text-2xl md:text-3xl font-bold text-left mt-4 font-sans">
+        <h2 className="text-2xl md:text-3xl font-bold text-left mt-4 font-sans">
           Car dans ce programme unique d'1 an, tu découvriras&nbsp;:
-        </p>
+        </h2>
 
         {/* Features */}
         <div className="grid gap-6 mt-8">
