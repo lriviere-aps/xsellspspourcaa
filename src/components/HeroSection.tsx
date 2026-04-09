@@ -10,7 +10,7 @@ const HeroSection = () => (
 
     {/* Content */}
     <div className="relative z-10 max-w-3xl mx-auto animate-fade-up">
-      <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.08] text-paper mb-6">
+      <h1 className="font-sans text-4xl md:text-5xl lg:text-5xl font-bold leading-[1.08] text-paper mb-6">
         Découvre les{" "}
         <em className="text-gold-light italic">Secrets des Plantes Sauvages</em>
         {" "}avec le maître de la cueillette
