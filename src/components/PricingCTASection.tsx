@@ -9,7 +9,7 @@ const PricingCTASection = () => (
           Rejoins Les Secrets des Plantes Sauvages pour seulement 29€/mois !
         </h2>
 
-        <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+        <div className="space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
           <p>
             François Couplan, c'est LA référence des plantes sauvages en France et <strong className="text-foreground">il n'y a pas meilleur guide que lui pour découvrir la cueillette&nbsp;!</strong>
           </p>
@@ -39,7 +39,7 @@ const PricingCTASection = () => (
           Tu arrêtes quand tu veux, c'est 100% sans engagement !
         </h2>
 
-        <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+        <div className="space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
           <p>
             Grâce à François, dans quelques semaines seulement, tu seras capable de cueillir une dizaine d'incroyables plantes sauvages pour cuisiner de délicieuses recettes maison, et fabriquer de puissants remèdes naturels…
           </p>
@@ -74,7 +74,7 @@ const PricingCTASection = () => (
           <h2 className="text-3xl md:text-4xl font-bold text-primary font-sans">
             Mes 3 garanties
           </h2>
-          <p className="text-base md:text-lg text-muted-foreground font-sans">
+          <p className="text-base md:text-lg text-neutral-900 font-sans">
             En rejoignant <em className="text-primary">Les Secrets des Plantes Sauvages</em>, tu bénéficies de trois garanties ultra-solides, pour te former en toute sérénité.
           </p>
         </div>
@@ -91,7 +91,7 @@ const PricingCTASection = () => (
               </h3>
             </div>
           </div>
-          <div className="space-y-3 text-base md:text-lg leading-relaxed text-muted-foreground font-sans pl-16">
+          <div className="space-y-3 text-base md:text-lg leading-relaxed text-neutral-900 font-sans pl-16">
             <p>
               En rejoignant <em className="text-primary">Les Secrets des Plantes Sauvages</em> aujourd'hui, <strong className="text-foreground">tu arrêtes quand tu veux, c'est garanti sans aucun engagement.</strong>
             </p>
@@ -113,7 +113,7 @@ const PricingCTASection = () => (
               </h3>
             </div>
           </div>
-          <div className="space-y-3 text-base md:text-lg leading-relaxed text-muted-foreground font-sans pl-16">
+          <div className="space-y-3 text-base md:text-lg leading-relaxed text-neutral-900 font-sans pl-16">
             <p>
               Les membres qui se forment avec François sont unanimes&nbsp;: Découvrir le monde des plantes comestibles, médicinales, cosmétiques… avec lui leur a permis de révolutionner leur quotidien&nbsp;!
             </p>
@@ -148,7 +148,7 @@ const PricingCTASection = () => (
               </h3>
             </div>
           </div>
-          <div className="space-y-3 text-base md:text-lg leading-relaxed text-muted-foreground font-sans pl-16">
+          <div className="space-y-3 text-base md:text-lg leading-relaxed text-neutral-900 font-sans pl-16">
             <p className="font-semibold text-foreground">
               Je suis accrédité "SEPA", c'est le moyen de paiement le plus sécurisé qui existe.
             </p>

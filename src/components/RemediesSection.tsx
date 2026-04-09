@@ -14,7 +14,7 @@ const RemediesSection = () => (
         loading="lazy"
       />
 
-      <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+      <div className="space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
         <p>Ton livre n'est que le début de ton aventure avec les plantes médicinales.</p>
         <p>
           Avec <em className="font-semibold text-primary">Les Secrets des Plantes Sauvages</em>, tu découvriras encore plus de plantes médicinales et encore plus de remèdes, <strong className="text-foreground">EN DIRECT&nbsp;!</strong>

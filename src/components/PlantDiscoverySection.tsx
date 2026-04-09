@@ -30,7 +30,7 @@ const PlantDiscoverySection = () => (
         loading="lazy"
       />
 
-      <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+      <div className="space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
         <p>Des plantes sauvages comestibles et médicinales, il en existe des milliers.</p>
         <p>
           Mais François t'a sélectionné les meilleures, et tu découvriras chaque semaine dans{" "}
@@ -56,7 +56,7 @@ const PlantDiscoverySection = () => (
         loading="lazy"
       />
 
-      <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+      <div className="space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
         <p>
           Parmi ces 38 plantes incroyables, qui (re)trouveront bientôt leur place dans ton assiette et ta pharmacie, tu découvriras&nbsp;:
         </p>
