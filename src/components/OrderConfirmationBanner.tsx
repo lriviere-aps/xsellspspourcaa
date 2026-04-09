@@ -31,7 +31,7 @@ const OrderConfirmationBanner = () => (
       </div>
 
       {/* Accroche */}
-      <p className="text-foreground text-base md:text-lg font-sans font-semibold leading-snug">
+      <p className="text-foreground text-base font-sans font-semibold leading-snug md:text-xl">
         Découvre la suite logique au{" "}
         <strong className="text-primary italic">Calendrier de l'Autonomie</strong>
       </p>
