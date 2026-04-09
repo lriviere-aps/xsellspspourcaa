@@ -1,4 +1,4 @@
-import remedesImg from "@/assets/remedes-naturels.jpg";
+import remedesImg from "@/assets/remedes-naturels-new.png";
 
 const RemediesSection = () => (
   <section className="bg-background font-sans">
