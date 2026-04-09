@@ -14,7 +14,7 @@ const OrderConfirmationBanner = () => (
       </h2>
 
       {/* Sous-titre */}
-      <p className="text-muted-foreground text-sm font-sans">
+      <p className="font-sans text-lg text-neutral-900 font-semibold">
         Dans quelques minutes, tu recevras ta confirmation de commande par mail
         <br className="hidden md:inline" /> (pense bien à vérifier tes spams&nbsp;!).
       </p>
@@ -36,7 +36,7 @@ const OrderConfirmationBanner = () => (
         <strong className="text-primary italic">Calendrier de l'Autonomie</strong>
       </p>
 
-      <p className="text-muted-foreground text-sm md:text-base font-sans leading-relaxed max-w-xl mx-auto">
+      <p className="text-sm font-sans leading-relaxed max-w-xl mx-auto text-neutral-900 md:text-xl">
         Le premier niveau d'autonomie que tu dois atteindre est l'autonomie alimentaire.
         Et le meilleur moyen d'y arriver rapidement est de découvrir la cueillette de plantes sauvages.
       </p>
