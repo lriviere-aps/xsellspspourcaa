@@ -183,7 +183,7 @@ const PricingCTASection = () => (
         </p>
 
         <div className="space-y-3 pt-4">
-          <p className="font-semibold text-red-600 text-lg">En cliquant sur le bouton ci-dessous tu valides ton inscription&nbsp;:</p>
+          <p className="font-semibold text-white text-lg">En cliquant sur le bouton ci-dessous tu valides ton inscription&nbsp;:</p>
           <a
             href="#"
             className="inline-block w-full max-w-md bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg py-4 px-8 rounded-xl transition-colors"
