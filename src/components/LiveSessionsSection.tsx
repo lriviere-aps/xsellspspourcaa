@@ -2,7 +2,7 @@ import liveImg from "@/assets/live-sessions-direct.png";
 import { Video, Headphones, FileText } from "lucide-react";
 
 const LiveSessionsSection = () => (
-  <section className="bg-secondary text-secondary-foreground font-sans">
+  <section className="text-secondary-foreground font-sans bg-lime-900">
     <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
       <h2 className="text-2xl md:text-3xl font-bold leading-snug text-left font-sans">
         François te donne rendez-vous tous les mois, EN DIRECT !
