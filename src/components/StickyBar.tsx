@@ -25,7 +25,7 @@ const StickyBar = () => {
         Débloque l'accès immédiat aux secrets des Plantes Sauvages de François Couplan
       </span>
       <a
-        href="#pricing"
+        href="#final-cta"
         className="font-sans-ui bg-gold px-5 py-2 rounded hover:bg-gold-light transition-colors text-white font-bold text-base"
       >
         Rejoindre→
