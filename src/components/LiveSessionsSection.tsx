@@ -49,7 +49,7 @@ const LiveSessionsSection = () => (
         <img
           src={replayFormatsImg}
           alt="Vidéo + Audio + Dossier complet"
-          className="w-full max-w-lg mx-auto"
+          className="w-full mx-auto"
           loading="lazy"
         />
       </div>
