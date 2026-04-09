@@ -55,14 +55,14 @@ const LeadSection = () => (
         Aujourd'hui la nourriture vient d'un rayon de supermarché, les remèdes
         d'une boîte en carton, et le savoir médical d'une ordonnance.
       </p>
-      <p className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
-        Sauf que quand la machine se grippe, tout s'effondre.
-      </p>
     </div>
 
     {/* L'événement déclencheur */}
     <div className="bg-card">
       <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+        <p className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
+          Sauf que quand la machine se grippe, tout s'effondre.
+        </p>
         <p className="font-semibold text-foreground">
           C'est ce qu'il s'est passé en mars 2020 au début du Covid.
         </p>
