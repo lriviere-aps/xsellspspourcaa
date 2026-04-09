@@ -35,10 +35,6 @@ const OrderConfirmationBanner = () => (
       </div>
 
       {/* Accroche */}
-      <p className="text-foreground text-base font-sans font-semibold leading-snug md:text-xl">
-        Découvre la suite logique au{" "}
-        <strong className="text-primary italic">Calendrier de l'Autonomie</strong>
-      </p>
 
       <p className="text-sm font-sans leading-relaxed max-w-xl mx-auto text-neutral-900 md:text-xl">
         Le premier niveau d'autonomie que tu dois atteindre est l'autonomie alimentaire.
