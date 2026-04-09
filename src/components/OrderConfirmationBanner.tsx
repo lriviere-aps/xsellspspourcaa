@@ -14,12 +14,12 @@ const OrderConfirmationBanner = () => (
       </h2>
 
       {/* Sous-titre */}
-      <p className="font-sans text-lg text-neutral-900 font-semibold">
+      <p className="font-sans text-lg text-neutral-900 font-medium">
         Dans quelques minutes, tu recevras ta confirmation de commande par mail
         <br className="hidden md:inline" /> (pense bien à vérifier tes spams&nbsp;!).
       </p>
 
-      <p className="font-sans text-lg text-neutral-900 font-semibold">
+      <p className="font-sans text-lg text-neutral-900 font-medium">
         Avant que tu partes je dois te parler d'un projet exceptionnel qui est la suite logique du Calendrier de l'Autonomie.
       </p>
 
