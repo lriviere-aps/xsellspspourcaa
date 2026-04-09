@@ -21,8 +21,8 @@ const StickyBar = () => {
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <span className="font-display italic text-sm text-paper/60">
-        Les Secrets des Plantes Sauvages · François Couplan
+      <span className="font-display italic text-sm text-white font-semibold font-serif">
+        Débloque l'accès immédiat aux secrets des Plantes Sauvages de François Couplan
       </span>
       <a
         href="#rejoindre"
