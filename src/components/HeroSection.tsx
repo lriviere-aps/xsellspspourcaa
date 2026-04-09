@@ -16,8 +16,8 @@ const HeroSection = () => (
         {" "}avec le maître de la cueillette
       </h1>
 
-      <p className="font-body italic text-lg md:text-xl text-paper/50 max-w-xl mx-auto leading-relaxed">
-        Avec François Couplan, ethnobotaniste et auteur de référence depuis plus de 40 ans. Cueillette, recettes, remèdes naturels.
+      <p className="font-body italic md:text-xl max-w-xl mx-auto leading-relaxed font-semibold text-destructive-foreground text-2xl">
+        Découvre les meilleures cueillettes, recettes et remèdes sauvages pour développer ton autonomie
       </p>
     </div>
   </header>
