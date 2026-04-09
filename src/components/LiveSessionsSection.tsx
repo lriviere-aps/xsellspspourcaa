@@ -45,19 +45,13 @@ const LiveSessionsSection = () => (
       </div>
 
       {/* Replay formats */}
-      <div className="flex justify-center gap-8 py-6">
-        {[
-          { icon: Video, label: "VIDÉO" },
-          { icon: Headphones, label: "AUDIO" },
-          { icon: FileText, label: "DOSSIER COMPLET" },
-        ].map(({ icon: Icon, label }) => (
-          <div key={label} className="flex flex-col items-center gap-2">
-            <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center">
-              <Icon className="w-7 h-7 text-primary" />
-            </div>
-            <span className="text-xs font-bold text-secondary-foreground tracking-wide">{label}</span>
-          </div>
-        ))}
+      <div className="py-6">
+        <img
+          src={replayFormatsImg}
+          alt="Vidéo + Audio + Dossier complet"
+          className="w-full max-w-lg mx-auto"
+          loading="lazy"
+        />
       </div>
     </div>
   </section>
