@@ -1,7 +1,7 @@
 import { ShieldCheck, RotateCcw, Lock } from "lucide-react";
 
 const PricingCTASection = () => (
-  <section className="font-sans">
+  <section id="pricing" className="font-sans">
     {/* Pricing */}
     <div className="bg-background">
       <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
