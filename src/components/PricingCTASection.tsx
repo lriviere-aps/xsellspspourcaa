@@ -186,7 +186,7 @@ const PricingCTASection = () => (
           <p className="font-semibold text-white text-lg underline">En cliquant sur le bouton ci-dessous tu valides ton inscription&nbsp;:</p>
           <a
             href="#"
-            className="inline-block w-full max-w-md bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg py-4 px-8 rounded-xl transition-colors"
+            className="inline-block w-full max-w-md bg-primary hover:bg-primary/90 font-bold text-lg py-4 px-8 rounded-xl transition-colors text-white"
           >
             JE REJOINS LES SECRETS DES PLANTES SAUVAGES POUR SEULEMENT 29€/MOIS !
           </a>
