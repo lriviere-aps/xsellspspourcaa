@@ -9,7 +9,7 @@ const LeadSection = () => (
       </h2>
 
       <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
-        <p>Depuis la naissance de l'humanité, tous nos ancêtres ont su se nourrir grâce à la nature.</p>
+        <p className="text-neutral-900">Depuis la naissance de l'humanité, tous nos ancêtres ont su se nourrir grâce à la nature.</p>
         <p>Certes, ils ne cueillaient probablement pas quotidiennement.</p>
         <p>
           Mais tous savaient identifier les plantes vitales&nbsp;: celles comestibles,
