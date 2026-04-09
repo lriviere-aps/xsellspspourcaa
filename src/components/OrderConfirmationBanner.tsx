@@ -20,7 +20,7 @@ const OrderConfirmationBanner = () => (
       </p>
 
       <p className="font-sans text-lg text-neutral-900 font-medium">
-        Avant que tu partes je dois te parler d'un projet exceptionnel qui est la suite logique du Calendrier de l'Autonomie.
+        Avant que tu partes je dois te parler d'un projet exceptionnel qui est la suite logique du <em className="not-italic" style={{ color: '#990000', fontStyle: 'italic' }}>Calendrier de l'Autonomie</em>.
       </p>
 
       {/* Image */}
