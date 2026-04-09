@@ -4,24 +4,15 @@ const StickyBar = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const target = document.getElementById("programme-section");
-    if (!target) return;
+    const onScroll = () => {
+      const target = document.getElementById("programme-section");
+      if (!target) return;
+      const rect = target.getBoundingClientRect();
+      setVisible(rect.bottom < 0);
+    };
 
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        // Show sticky bar once the bottom of the section has been scrolled past
-        if (entry.boundingClientRect.bottom < 0) {
-          setVisible(true);
-        } else {
-          setVisible(false);
-        }
-      },
-      { threshold: 0 }
-    );
-
-    observer.observe(target);
-
-    return () => observer.disconnect();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
