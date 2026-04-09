@@ -10,13 +10,13 @@ const HeroSection = () => (
 
     {/* Content */}
     <div className="relative z-10 max-w-3xl mx-auto animate-fade-up">
-      <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.08] text-paper mb-6">
+      <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.08] text-paper mb-6">
         Découvre les{" "}
         <em className="text-gold-light italic">Secrets des Plantes Sauvages</em>
         {" "}avec le maître de la cueillette
       </h1>
 
-      <p className="font-body italic md:text-xl max-w-xl mx-auto leading-relaxed font-semibold text-destructive-foreground text-2xl">
+      <p className="font-sans italic md:text-xl max-w-xl mx-auto leading-relaxed font-semibold text-destructive-foreground text-2xl">
         Découvre les meilleures cueillettes, recettes et remèdes sauvages pour développer ton autonomie
       </p>
     </div>
