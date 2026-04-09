@@ -16,11 +16,6 @@ const HeroSection = () => (
 
     {/* Content */}
     <div className="relative z-10 max-w-3xl mx-auto animate-fade-up">
-      <div className="inline-block border-t border-b border-gold/40 px-6 py-1.5 mb-8">
-        <span className="font-sans-ui text-[11px] font-medium tracking-[2.5px] uppercase text-gold-light">
-          Sessions EN DIRECT · Chaque mois
-        </span>
-      </div>
 
       <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.08] text-paper mb-6">
         Découvre les{" "}
