@@ -5,7 +5,7 @@ const OrderConfirmationBanner = () => (
   <section className="bg-muted">
     <div className="max-w-3xl mx-auto px-6 py-16 md:py-20 text-center space-y-6">
       {/* Logo */}
-      <img src={logoAps} alt="Logo APS" width={128} height={128} className="w-28 h-28 mx-auto object-fill" />
+      <img src={logoAps} alt="Logo APS" width={256} height={256} className="w-56 h-56 mx-auto object-fill" />
 
       {/* Titre */}
       <h2 className="font-sans text-xl font-bold text-foreground leading-snug md:text-4xl">
