@@ -37,7 +37,7 @@ const OrderConfirmationBanner = () => (
       {/* Accroche */}
 
       <p className="text-sm font-sans leading-relaxed max-w-xl mx-auto text-neutral-900 md:text-xl">
-        Le premier niveau d'autonomie que tu dois atteindre est l'autonomie alimentaire.
+        Le premier niveau d'autonomie que tu dois atteindre est l'autonomie alimentaire.<br />
         Et le meilleur moyen d'y arriver rapidement est de découvrir la cueillette de plantes sauvages.
       </p>
     </div>
