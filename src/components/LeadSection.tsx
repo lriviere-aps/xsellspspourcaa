@@ -24,7 +24,7 @@ const LeadSection = () => (
 
     {/* Transition — la perte */}
     <div className="text-secondary-foreground bg-lime-900">
-      <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed font-sans">
+      <div className="max-w-2xl mx-auto px-6 py-20 space-y-5 text-base md:text-lg leading-relaxed font-sans">
         <h2 className="text-2xl md:text-3xl font-bold text-left font-sans">
           En deux générations, cette compétence a pratiquement disparu.
         </h2>
@@ -41,7 +41,7 @@ const LeadSection = () => (
     </div>
 
     {/* Le contraste passé / présent */}
-    <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
+    <div className="max-w-2xl mx-auto px-6 py-20 space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
       <h2 className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
         Ce progrès vient avec une dépendance.
       </h2>
@@ -61,7 +61,7 @@ const LeadSection = () => (
 
     {/* L'événement déclencheur */}
     <div className="bg-card">
-      <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
+      <div className="max-w-2xl mx-auto px-6 py-20 space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
         <h2 className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
           Sauf que quand la machine se grippe, tout s'effondre.
         </h2>

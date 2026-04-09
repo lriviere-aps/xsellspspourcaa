@@ -3,7 +3,7 @@ import logoAps from "@/assets/logo-aps.png";
 
 const OrderConfirmationBanner = () => (
   <section className="bg-muted">
-    <div className="max-w-3xl mx-auto px-6 py-16 md:py-20 text-center space-y-6">
+    <div className="max-w-3xl mx-auto px-6 py-20 text-center space-y-6">
       {/* Logo */}
       <img src={logoAps} alt="Logo APS" width={128} height={128} className="w-28 h-28 mx-auto object-fill" />
 
