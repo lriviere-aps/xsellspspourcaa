@@ -2,19 +2,19 @@ import plantesImg from "@/assets/c38ce2a3-fd2c-4afe-b5d2-56a94e78805d.jpg";
 import plantesGridImg from "@/assets/a27f573d-e2f1-4f7b-b29b-3846c3b5bb86.png";
 
 const plants = [
-  "Notre \"meilleur légume sauvage\", abondant et délicieux, dont tu ne trouveras jamais aucun équivalent sur le marché (en plus de ça, tu pourras la cueillir gratuitement toute l'année !)",
-  "Les fleurs sauvages à l'origine de l'Aspirine — C'est la version 100% naturelle de ce médicament développé par Big Pharma, elle apaisera toutes tes douleurs sans jamais causer les effets secondaires du comprimé !",
-  "L'arbre à salade aux délicieuses feuilles, fleurs et fruits comestibles — Pour préparer tes meilleures farines vertes reminéralisantes, infusions calmantes et pâtes à tartiner sauvages ;)",
-  "LA plante de printemps pour \"détoxifier\" ton organisme… et préparer le meilleur \"café sauvage\" !",
-  "La belle-étoile, aux arômes de vanille complètement fous — François te partagera LA technique ancestrale pour les révéler et préparer d'incroyables desserts à la \"vanille sauvage\" !",
-  "Notre ginseng européen, aux vertus toniques, adaptogènes et aphrodisiaques aussi puissantes que méconnues…",
-  "Les secrets de l'arbre aux fées, dont tu pourras cueillir les fleurs et les fruits, qui donnent les meilleurs pétillants et gelées sauvages !",
-  "L'anti-stress le plus puissant du monde végétal — Cette plante était la seule à pouvoir apaiser les soldats rentrés de la guerre mondiale… c'est le meilleur anti-stress, calmant et somnifère que tu puisses trouver !",
-  "Nos meilleurs \"épinards sauvages\", à cueillir gratuitement dans toutes nos prairies et tous nos bois !",
-  "Les fleurs sauvages les plus précieuses du printemps, à transformer en délicieux sirops, desserts… ou baumes médicinaux !",
-  "L'\"herbe aux soldats\", à l'efficacité hors du commun pour guérir les plaies — Les Grecs racontaient que c'est elle qui avait guéri toutes les plaies des soldats d'Achille lors de la guerre de Troie !",
+  <><strong>Notre "meilleur légume sauvage", abondant et délicieux</strong>, dont tu ne trouveras jamais aucun équivalent sur le marché (en plus de ça, tu pourras la cueillir gratuitement toute l'année !)</>,
+  <><strong>Les fleurs sauvages à l'origine de l'Aspirine</strong> — C'est la version 100% naturelle de ce médicament développé par Big Pharma, elle apaisera toutes tes douleurs sans jamais causer les effets secondaires du comprimé !</>,
+  <><strong><em>L'arbre à salade</em> aux délicieuses feuilles, fleurs et fruits comestibles</strong> - Pour préparer tes meilleures farines vertes reminéralisantes, infusions calmantes et pâtes à tartiner sauvages ;)</>,
+  <><strong>LA plante de printemps pour "détoxifier" ton organisme</strong>… et préparer le meilleur "café sauvage" !</>,
+  <><strong>La <em>belle-étoile</em>, aux arômes de vanille complètement fous</strong> - François te partagera LA technique ancestrale pour les révéler et préparer d'incroyables desserts à la "vanille sauvage" !</>,
+  <><strong>Notre <em>ginseng européen</em>, aux vertus toniques, adaptogènes et aphrodisiaques</strong> aussi puissantes que méconnues…</>,
+  <><strong>Les secrets de l'arbre aux fées, dont tu pourras cueillir les fleurs et les fruits</strong>, qui donnent les meilleurs pétillants et gelées sauvages !</>,
+  <><strong>L'anti-stress le plus puissant du monde végétal</strong> - Cette plante était la seule à pouvoir apaiser les soldats rentrés de la guerre mondiale… c'est le meilleur anti-stress, calmant et somnifère que tu puisses trouver !</>,
+  <><strong>Nos meilleurs "épinards sauvages"</strong>, à cueillir gratuitement dans toutes nos prairies et tous nos bois !</>,
+  <><strong>Les fleurs sauvages les plus précieuses du printemps</strong>, à transformer en délicieux sirops, desserts… ou baumes médicinaux !</>,
+  <><strong>L' "herbe aux soldats", à l'efficacité hors du commun pour guérir les plaies</strong> - Les Grecs racontaient que c'est elle qui avait guéri toutes les plaies des soldats d'Achille lors de la guerre de Troie !</>,
   "…",
-];
+] as const;
 
 const PlantDiscoverySection = () => (
   <section className="bg-background font-sans">
