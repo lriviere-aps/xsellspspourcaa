@@ -78,9 +78,8 @@ const LeadSection = () => (
           Ce que peu de gens savent, c'est que nos chaînes d'approvisionnement
           fonctionnent en <span className="font-semibold text-foreground">flux tendu permanent</span>.
         </p>
-        <p className="text-lg font-bold text-foreground">
-          Il n'y a pas de stock. Pas de marge.<br />
-          Au moindre grain de sable dans la machine, tous les rayons sont vides en 72h.
+        <p className="text-lg font-bold text-foreground whitespace-pre-line">
+          {`Il n'y a pas de stock. Pas de marge.\nAu moindre grain de sable dans la machine, tous les rayons sont vides en 72h.`}
         </p>
       </div>
     </div>
