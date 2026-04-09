@@ -14,7 +14,7 @@ const RecipesSection = () => (
         loading="lazy"
       />
 
-      <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+      <div className="space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
         <p>
           François a collaboré plusieurs dizaines d'années avec des chefs étoilés et ADORE se faire plaisir avec la cuisine sauvage&nbsp;!
         </p>

@@ -8,7 +8,7 @@ const LeadSection = () => (
         Nous sommes la première génération de l'histoire humaine à ne pas savoir nous nourrir grâce à la nature.
       </h2>
 
-      <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+      <div className="space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
         <p className="text-neutral-900">Depuis la naissance de l'humanité, tous nos ancêtres ont su se nourrir grâce à la nature.</p>
         <p>Certes, ils ne cueillaient probablement pas quotidiennement.</p>
         <p>
@@ -41,7 +41,7 @@ const LeadSection = () => (
     </div>
 
     {/* Le contraste passé / présent */}
-    <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+    <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
       <h2 className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
         Ce progrès vient avec une dépendance.
       </h2>
@@ -61,7 +61,7 @@ const LeadSection = () => (
 
     {/* L'événement déclencheur */}
     <div className="bg-card">
-      <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+      <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
         <h2 className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
           Sauf que quand la machine se grippe, tout s'effondre.
         </h2>
@@ -91,7 +91,7 @@ const LeadSection = () => (
         Un homme providentiel pour sortir de la fragilité du système
       </h2>
 
-      <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
+      <div className="space-y-5 text-base md:text-lg leading-relaxed text-neutral-900 font-sans">
         <p>Mais il y a une bonne nouvelle.</p>
         <p>
           Ce savoir que nos arrière-grands-parents possédaient naturellement…
