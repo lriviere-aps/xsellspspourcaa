@@ -103,9 +103,9 @@ const LeadSection = () => (
           ancêtres connaissaient par cœur.
         </p>
         <p>Il les a identifiées. Goûtées. Documentées. Testées.</p>
-        <h2 className="text-xl font-bold text-foreground">
+        <p className="text-xl font-bold text-foreground">
           Et il a fini par devenir une véritable légende.
-        </h2>
+        </p>
         <p>
           Il a collaboré avec les plus grands chefs étoilés, écrit des dizaines de
           livres sur le sujet et est devenu <strong>LA référence</strong> des plantes sauvages.
