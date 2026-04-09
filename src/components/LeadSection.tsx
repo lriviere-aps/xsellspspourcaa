@@ -4,9 +4,9 @@ const LeadSection = () => (
   <section className="bg-background font-sans">
     {/* Part 1 — Le constat */}
     <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
-      <p className="text-2xl md:text-3xl font-bold leading-snug text-foreground text-left font-sans">
+      <h2 className="text-2xl md:text-3xl font-bold leading-snug text-foreground text-left font-sans">
         Nous sommes la première génération de l'histoire humaine à ne pas savoir nous nourrir grâce à la nature.
-      </p>
+      </h2>
 
       <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
         <p>Depuis la naissance de l'humanité, tous nos ancêtres ont su se nourrir grâce à la nature.</p>
