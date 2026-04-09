@@ -16,7 +16,7 @@ const LeadSection = () => (
           celles pour préparer des remèdes et celles à éviter absolument.
         </p>
         <p>Et ce n'était pas une compétence de spécialiste.</p>
-        <p className="font-semibold text-foreground">
+        <p className="font-semibold text-primary">
           C'était aussi banal que savoir allumer un feu ou coudre un vêtement.
         </p>
       </div>
