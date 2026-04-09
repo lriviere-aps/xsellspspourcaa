@@ -4,7 +4,7 @@ const LeadSection = () => (
   <section className="bg-background font-sans">
     {/* Part 1 — Le constat */}
     <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
-      <p className="text-2xl md:text-3xl font-bold leading-snug text-foreground text-right font-sans">
+      <p className="text-2xl md:text-3xl font-bold leading-snug text-foreground text-left font-sans">
         Nous sommes la première génération de l'histoire humaine à ne pas savoir nous nourrir grâce à la nature.
       </p>
 
@@ -25,7 +25,7 @@ const LeadSection = () => (
     {/* Transition — la perte */}
     <div className="bg-secondary text-secondary-foreground">
       <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed font-sans">
-        <p className="text-2xl md:text-3xl font-bold text-right font-sans">
+        <p className="text-2xl md:text-3xl font-bold text-left font-sans">
           En deux générations, cette compétence a pratiquement disparu.
         </p>
         <p>
@@ -55,7 +55,7 @@ const LeadSection = () => (
         Aujourd'hui la nourriture vient d'un rayon de supermarché, les remèdes
         d'une boîte en carton, et le savoir médical d'une ordonnance.
       </p>
-      <p className="text-2xl md:text-3xl font-bold text-foreground text-right font-sans">
+      <p className="text-2xl md:text-3xl font-bold text-foreground text-left font-sans">
         Sauf que quand la machine se grippe, tout s'effondre.
       </p>
     </div>
@@ -85,7 +85,7 @@ const LeadSection = () => (
 
     {/* Part 2 — L'homme providentiel */}
     <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
-      <h2 className="text-2xl md:text-3xl font-bold text-foreground text-right leading-snug font-sans">
+      <h2 className="text-2xl md:text-3xl font-bold text-foreground text-left leading-snug font-sans">
         Un homme providentiel pour sortir de la fragilité du système
       </h2>
 
@@ -114,7 +114,7 @@ const LeadSection = () => (
           Cet homme, c'est François Couplan. Un ethnobotaniste exceptionnel qui a
           formé des milliers de personnes sur trois continents.
         </p>
-        <p className="text-primary font-bold text-xl text-right mt-8">
+        <p className="text-primary font-bold text-xl text-left mt-8">
           Et aujourd'hui il propose de te transmettre ce savoir.
         </p>
       </div>
@@ -123,7 +123,7 @@ const LeadSection = () => (
     {/* Part 3 — Le programme */}
     <div className="bg-secondary text-secondary-foreground">
       <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
-        <h2 className="text-2xl md:text-3xl font-bold text-right leading-snug font-sans">
+        <h2 className="text-2xl md:text-3xl font-bold text-left leading-snug font-sans">
           Réveille le cueilleur, cuisinier et guérisseur qui sommeille en toi
         </h2>
 
@@ -143,7 +143,7 @@ const LeadSection = () => (
           </p>
         </div>
 
-        <p className="text-2xl md:text-3xl font-bold text-right mt-4 font-sans">
+        <p className="text-2xl md:text-3xl font-bold text-left mt-4 font-sans">
           Car dans ce programme unique d'1 an, tu découvriras&nbsp;:
         </p>
 
