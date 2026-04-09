@@ -1,14 +1,14 @@
-import { Leaf, BookOpen, Video, FileText, Radio, Headphones } from "lucide-react";
+import { Video, FileText, Radio, Headphones } from "lucide-react";
 
 const LeadSection = () => (
-  <section className="bg-background">
+  <section className="bg-background font-sans">
     {/* Part 1 — Le constat */}
     <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
-      <p className="font-display text-2xl md:text-3xl font-bold leading-snug text-foreground text-center">
+      <p className="text-2xl md:text-3xl font-bold leading-snug text-foreground text-right font-sans">
         Nous sommes la première génération de l'histoire humaine à ne pas savoir nous nourrir grâce à la nature.
       </p>
 
-      <div className="space-y-5 font-body text-base md:text-lg leading-relaxed text-muted-foreground">
+      <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
         <p>Depuis la naissance de l'humanité, tous nos ancêtres ont su se nourrir grâce à la nature.</p>
         <p>Certes, ils ne cueillaient probablement pas quotidiennement.</p>
         <p>
@@ -24,8 +24,8 @@ const LeadSection = () => (
 
     {/* Transition — la perte */}
     <div className="bg-secondary text-secondary-foreground">
-      <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 font-body text-base md:text-lg leading-relaxed">
-        <p className="font-display text-xl md:text-2xl font-bold">
+      <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed font-sans">
+        <p className="text-2xl md:text-3xl font-bold text-right font-sans">
           En deux générations, cette compétence a pratiquement disparu.
         </p>
         <p>
@@ -37,12 +37,12 @@ const LeadSection = () => (
           faisions autrefois nous-mêmes.
         </p>
         <p>Quelqu'un d'autre cultive, transforme, conditionne, livre…</p>
-        <p className="font-semibold text-primary-foreground">Ce progrès vient avec une dépendance.</p>
+        <p className="font-semibold text-secondary-foreground">Ce progrès vient avec une dépendance.</p>
       </div>
     </div>
 
     {/* Le contraste passé / présent */}
-    <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 font-body text-base md:text-lg leading-relaxed text-muted-foreground">
+    <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
       <p>
         Il y a 80 ans, ta grand-mère savait que l'ortie se mange, que le
         plantain guérit les plaies et que les glands du chêne se transforment en
@@ -55,14 +55,14 @@ const LeadSection = () => (
         Aujourd'hui la nourriture vient d'un rayon de supermarché, les remèdes
         d'une boîte en carton, et le savoir médical d'une ordonnance.
       </p>
-      <p className="font-display text-xl md:text-2xl font-bold text-foreground">
+      <p className="text-2xl md:text-3xl font-bold text-foreground text-right font-sans">
         Sauf que quand la machine se grippe, tout s'effondre.
       </p>
     </div>
 
     {/* L'événement déclencheur */}
     <div className="bg-card">
-      <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 font-body text-base md:text-lg leading-relaxed text-muted-foreground">
+      <div className="max-w-2xl mx-auto px-6 py-16 space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
         <p className="font-semibold text-foreground">
           C'est ce qu'il s'est passé en mars 2020 au début du Covid.
         </p>
@@ -76,7 +76,7 @@ const LeadSection = () => (
           Ce que peu de gens savent, c'est que nos chaînes d'approvisionnement
           fonctionnent en <span className="font-semibold text-foreground">flux tendu permanent</span>.
         </p>
-        <p className="font-display text-lg font-bold text-foreground">
+        <p className="text-lg font-bold text-foreground">
           Il n'y a pas de stock. Pas de marge.<br />
           Au moindre grain de sable dans la machine, tous les rayons sont vides en 72h.
         </p>
@@ -85,11 +85,11 @@ const LeadSection = () => (
 
     {/* Part 2 — L'homme providentiel */}
     <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
-      <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground text-center leading-snug">
+      <h2 className="text-2xl md:text-3xl font-bold text-foreground text-right leading-snug font-sans">
         Un homme providentiel pour sortir de la fragilité du système
       </h2>
 
-      <div className="space-y-5 font-body text-base md:text-lg leading-relaxed text-muted-foreground">
+      <div className="space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground font-sans">
         <p>Mais il y a une bonne nouvelle.</p>
         <p>
           Ce savoir que nos arrière-grands-parents possédaient naturellement…
@@ -103,7 +103,7 @@ const LeadSection = () => (
           ancêtres connaissaient par cœur.
         </p>
         <p>Il les a identifiées. Goûtées. Documentées. Testées.</p>
-        <p className="font-display text-xl font-bold text-foreground">
+        <p className="text-xl font-bold text-foreground">
           Et il a fini par devenir une véritable légende.
         </p>
         <p>
@@ -114,7 +114,7 @@ const LeadSection = () => (
           Cet homme, c'est François Couplan. Un ethnobotaniste exceptionnel qui a
           formé des milliers de personnes sur trois continents.
         </p>
-        <p className="text-primary font-bold text-xl text-center mt-8">
+        <p className="text-primary font-bold text-xl text-right mt-8">
           Et aujourd'hui il propose de te transmettre ce savoir.
         </p>
       </div>
@@ -123,11 +123,11 @@ const LeadSection = () => (
     {/* Part 3 — Le programme */}
     <div className="bg-secondary text-secondary-foreground">
       <div className="max-w-2xl mx-auto px-6 py-20 space-y-8">
-        <h2 className="font-display text-2xl md:text-3xl font-bold text-center leading-snug">
+        <h2 className="text-2xl md:text-3xl font-bold text-right leading-snug font-sans">
           Réveille le cueilleur, cuisinier et guérisseur qui sommeille en toi
         </h2>
 
-        <div className="space-y-5 font-body text-base md:text-lg leading-relaxed text-secondary-foreground/80">
+        <div className="space-y-5 text-base md:text-lg leading-relaxed text-secondary-foreground/80 font-sans">
           <p>
             Avec François nous t'avons créé <strong className="text-secondary-foreground">LE programme vidéo ultime</strong> pour
             t'aider à atteindre l'autonomie alimentaire grâce à la cueillette des
@@ -135,7 +135,7 @@ const LeadSection = () => (
           </p>
           <p>
             Ce programme nous l'avons appelé&nbsp;:
-            <span className="font-display font-bold text-primary italic"> Les Secrets des Plantes Sauvages&nbsp;!</span>
+            <span className="font-bold text-primary italic"> Les Secrets des Plantes Sauvages&nbsp;!</span>
           </p>
           <p>
             Grâce à lui, la Nature sera bientôt pour toi un immense
@@ -143,7 +143,7 @@ const LeadSection = () => (
           </p>
         </div>
 
-        <p className="font-display text-xl font-bold text-center mt-4">
+        <p className="text-2xl md:text-3xl font-bold text-right mt-4 font-sans">
           Car dans ce programme unique d'1 an, tu découvriras&nbsp;:
         </p>
 
@@ -179,10 +179,10 @@ const LeadSection = () => (
                 <Icon className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-display font-bold text-secondary-foreground text-lg leading-snug">
+                <h3 className="font-bold text-secondary-foreground text-lg leading-snug font-sans">
                   {title}
                 </h3>
-                <p className="text-secondary-foreground/70 mt-1">{desc}</p>
+                <p className="text-secondary-foreground/70 mt-1 font-sans">{desc}</p>
               </div>
             </div>
           ))}
