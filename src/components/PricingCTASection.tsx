@@ -190,7 +190,7 @@ const PricingCTASection = () => (
           >
             JE REJOINS LES SECRETS DES PLANTES SAUVAGES POUR SEULEMENT 29€/MOIS !
           </a>
-          <p className="text-sm text-background/60 underline cursor-pointer">Je refuse cette offre pour l'instant</p>
+          <a href="#" className="inline-block text-sm text-muted-foreground bg-secondary hover:bg-secondary/80 text-secondary-foreground font-medium py-2 px-6 rounded-lg transition-colors">Je refuse cette offre pour l'instant</a>
         </div>
       </div>
     </div>
