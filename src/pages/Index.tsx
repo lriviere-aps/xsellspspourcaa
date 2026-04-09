@@ -1,4 +1,5 @@
 import StickyBar from "@/components/StickyBar";
+import OrderConfirmationBanner from "@/components/OrderConfirmationBanner";
 import HeroSection from "@/components/HeroSection";
 import LeadSection from "@/components/LeadSection";
 import FooterSection from "@/components/FooterSection";
@@ -6,6 +7,7 @@ import FooterSection from "@/components/FooterSection";
 const Index = () => (
   <div className="min-h-screen bg-background">
     <StickyBar />
+    <OrderConfirmationBanner />
     <HeroSection />
     <main>
       <LeadSection />
