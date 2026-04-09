@@ -19,6 +19,10 @@ const OrderConfirmationBanner = () => (
         <br className="hidden md:inline" /> (pense bien à vérifier tes spams&nbsp;!).
       </p>
 
+      <p className="font-sans text-lg text-neutral-900 font-semibold">
+        Avant que tu partes je dois te parler d'un projet exceptionnel qui est la suite logique du Calendrier de l'Autonomie.
+      </p>
+
       {/* Image */}
       <div className="flex justify-center">
         <img
