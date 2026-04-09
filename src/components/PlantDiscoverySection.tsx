@@ -1,5 +1,5 @@
 import plantesImg from "@/assets/c38ce2a3-fd2c-4afe-b5d2-56a94e78805d.jpg";
-import plantesGridImg from "@/assets/plantes-grid.jpg";
+import plantesGridImg from "@/assets/a27f573d-e2f1-4f7b-b29b-3846c3b5bb86.png";
 
 const plants = [
   "Notre \"meilleur légume sauvage\", abondant et délicieux, dont tu ne trouveras jamais aucun équivalent sur le marché (en plus de ça, tu pourras la cueillir gratuitement toute l'année !)",
