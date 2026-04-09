@@ -1,4 +1,4 @@
-import plantesImg from "@/assets/plantes-cueillette.jpg";
+import plantesImg from "@/assets/c38ce2a3-fd2c-4afe-b5d2-56a94e78805d.jpg";
 import plantesGridImg from "@/assets/plantes-grid.jpg";
 
 const plants = [
