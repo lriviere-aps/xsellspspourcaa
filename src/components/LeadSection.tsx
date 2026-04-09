@@ -50,7 +50,7 @@ const LeadSection = () => (
         plantain guérit les plaies et que les glands du chêne se transforment en
         une délicieuse farine.
       </p>
-      <p className="font-semibold text-foreground">
+      <p className="font-semibold text-primary">
         Ce n'était pas du survivalisme. C'était la vie ordinaire.
       </p>
       <p>
